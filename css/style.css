@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Sutonny;
+  src: url(../front/SutonnyOMJ\ Regular.ttf);
+}
+
+body {
+  font-family: Sutonny;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  padding: 0;
+}
+ul li{
+  list-style: none;
+  display: inline;
+}
+#topbar{
+  padding: 10px 0 10px 0;
+}
+#topbar .top-date{
+  margin-top: 8px;
+  font-size: 16px;
+}
+#topbar .top-icon{
+  cursor: pointer;
+}
+#topbar .top-icon .fa-facebook{
+  color: #1877F2;
+}
+#topbar .top-icon ul li img{
+  width: 16px;
+}
+#topbar .top-icon .fa-pinterest{
+  color: #CB1F27;
+}
+#topbar .top-icon .fa-whatsapp{
+  color: #60D669;
+}
+#topbar .top-icon span{
+  margin-right: 8px;
+  font-size: 14px;
+  color: #444;
+}
+.navbar {
+  background-color: #FDF2EA;
+  
+}
+.navbar .ms-auto{
+  margin: 0 140px 0 100px;
+}
+.navbar from{
+  position: relative;
+  color: #CBCBCB;
+}
+.navbar .fa-magnifying-glass{
+  position: absolute;
+  color: #CBCBCB;
+  right: 35px;
+  top: 20px;
+}
+.navbar .form-control{
+  border-radius: 30px !important;
+}
+.navbar .form-control:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border-color: #ED7D31;
+}
+.hero-section {
+
+}
+.heading{
+  background-color: #ED7D31;
+  color: #FFF;
+  margin: 10px auto;
+  text-align: center;
+}
+.news-sidebar ul li{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.news-sidebar ul li img{
+  max-width: 100%;
+}
+.news-1 h2{
+  margin-top: 20px;
+  font-size: 34px;
+}
+.news-1 p{
+  font-size: 18px;
+}
